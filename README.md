@@ -1,14 +1,9 @@
-# Drift — Geometric Universe
+# Fracture
 
 A relaxing, endless-progression tap game built with vanilla HTML/CSS/JS. No frameworks, no build step, no server required to play — works fully offline once loaded.
 
-## Running it
-
-**Quickest (works, but skips the offline service worker):**
-Open `index.html` directly in Safari on iPhone (AirDrop the folder to yourself, or use the Files app).
-
-**Recommended (full offline install + "Add to Home Screen"):**
-Host the folder anywhere static (GitHub Pages, Netlify, Cloudflare Pages, or `python3 -m http.server` on your own machine for local testing), then visit it once in Safari over https/localhost. That lets the service worker (`sw.js`) cache everything, and `localStorage` gets a stable origin for saves. After that first visit, it works with the network off, and you can add it to your home screen for an app-like feel.
+## Running it + "Add to Home Screen"):**
+Visit it once in Safari over https/localhost. That lets the service worker (`sw.js`) cache everything, and `localStorage` gets a stable origin for saves. After that first visit, it works with the network off, and you can add it to your home screen for an app-like feel.
 
 ## What's here
 
