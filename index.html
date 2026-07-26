@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#111111">
+<title>Drift — Geometric Universe</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- TOP BAR -->
+  <header id="topbar">
+    <div id="currencyWrap">
+      <span id="currencyIcon">◆</span>
+      <span id="currencyValue">0</span>
+      <span id="currencyRate"></span>
+    </div>
+    <div id="topRight">
+      <button id="activePowerBadge" class="badge hidden" title="Active power"></button>
+    </div>
+  </header>
+
+  <!-- GAME AREA -->
+  <main id="gameArea">
+    <canvas id="gameCanvas"></canvas>
+    <div id="floatingTextLayer"></div>
+    <div id="emptyStateHint" class="hidden">
+      <p>Tap the void to begin.</p>
+    </div>
+  </main>
+
+  <!-- BOTTOM NAV / PANEL -->
+  <nav id="bottomNav">
+    <div id="navTabs">
+      <button class="navTab" data-tab="upgrades">
+        <span class="navIcon">▲</span><span class="navLabel">Upgrades</span>
+      </button>
+      <button class="navTab" data-tab="research">
+        <span class="navIcon">◇</span><span class="navLabel">Research</span>
+      </button>
+      <button class="navTab" data-tab="powers">
+        <span class="navIcon">✦</span><span class="navLabel">Powers</span>
+      </button>
+      <button class="navTab" data-tab="stats">
+        <span class="navIcon">▤</span><span class="navLabel">Stats</span>
+      </button>
+      <button class="navTab" data-tab="settings">
+        <span class="navIcon">●</span><span class="navLabel">Settings</span>
+      </button>
+    </div>
+
+    <div id="panelSheet" class="hidden">
+      <div id="panelHandle"></div>
+      <div id="panelContent"></div>
+    </div>
+  </nav>
+
+</div>
+
+<script src="js/config/shapes.js"></script>
+<script src="js/config/powers.js"></script>
+<script src="js/config/abilities.js"></script>
+<script src="js/config/upgrades.js"></script>
+<script src="js/core/save.js"></script>
+<script src="js/core/audio.js"></script>
+<script src="js/core/performance.js"></script>
+<script src="js/core/entities.js"></script>
+<script src="js/core/physics.js"></script>
+<script src="js/core/render.js"></script>
+<script src="js/systems/powers.js"></script>
+<script src="js/systems/abilities.js"></script>
+<script src="js/systems/autotapper.js"></script>
+<script src="js/ui/research.js"></script>
+<script src="js/ui/upgrades.js"></script>
+<script src="js/ui/powerspanel.js"></script>
+<script src="js/ui/stats.js"></script>
+<script src="js/ui/settings.js"></script>
+<script src="js/ui/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

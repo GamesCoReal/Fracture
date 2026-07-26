@@ -1,0 +1,10 @@
+{
+  "name": "Drift — Geometric Universe",
+  "short_name": "Drift",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "start_url": "./index.html",
+  "icons": []
+}
