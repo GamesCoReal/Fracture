@@ -3,7 +3,7 @@
 A relaxing, endless-progression tap game built with vanilla HTML/CSS/JS. No frameworks, no build step, no server required to play — works fully offline once loaded.
 
 ## Running it + "Add to Home Screen"):**
-Visit it once in Safari over https/localhost. That lets the service worker (`sw.js`) cache everything, and `localStorage` gets a stable origin for saves. After that first visit, it works with the network off, and you can add it to your home screen for an app-like feel.
+Visit it once in Safari over (https://gamescoreal.github.io/Fracture/). That lets the service worker (`sw.js`) cache everything, and `localStorage` gets a stable origin for saves. After that first visit, it works with the network off, and you can add it to your home screen for an app-like feel.
 
 ## What's here
 
