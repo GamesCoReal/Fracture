@@ -1,5 +1,7 @@
 # Fracture
 
+##IN PROGRESS/SIDE PROJECT
+
 A relaxing, endless-progression tap game built with vanilla HTML/CSS/JS. No frameworks, no build step, no server required to play — works fully offline once loaded.
 
 ## Running it + "Add to Home Screen"):**
